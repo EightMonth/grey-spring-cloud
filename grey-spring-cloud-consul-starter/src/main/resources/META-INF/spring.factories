@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  org.eightmonth.cloud.grey.consul.GreyConsulAutoConfiguration

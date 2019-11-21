@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  org.eightmonth.cloud.grey.feign.GreyFeignAutoConfiguration
+org.springframework.context.ApplicationListener=\
+  org.eightmonth.cloud.grey.feign.listener.ConfigFeignClientListener

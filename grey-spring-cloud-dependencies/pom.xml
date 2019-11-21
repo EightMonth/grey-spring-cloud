@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.eightmonth.cloud</groupId>
+    <artifactId>grey-spring-cloud-dependencies</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <name>grey-spring-cloud-dependencies</name>
+
+    <dependencyManagement>
+
+        <dependencies>
+            <!-- Own dependencies -->
+            <dependency>
+                <artifactId>grey-spring-cloud-core</artifactId>
+                <groupId>org.eightmonth.cloud</groupId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <!-- Own dependencies - Starters -->
+            <dependency>
+                <artifactId>grey-spring-cloud-consul-starter</artifactId>
+                <groupId>org.eightmonth.cloud</groupId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <artifactId>grey-spring-cloud-openfeign-starter</artifactId>
+                <groupId>org.eightmonth.cloud</groupId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <artifactId>grey-spring-cloud-zuul-starter</artifactId>
+                <groupId>org.eightmonth.cloud</groupId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>
