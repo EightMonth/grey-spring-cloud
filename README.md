@@ -12,7 +12,7 @@
 <dependencyManagement>
     <dependencies>
         <dependency>
-            <groupId>org.eightmonth.cloud</groupId>
+            <groupId>io.github.eightmonth.cloud</groupId>
             <artifactId>grey-spring-cloud-dependencies</artifactId>
             <version>${latest.version}</version>
             <type>pom</type>
