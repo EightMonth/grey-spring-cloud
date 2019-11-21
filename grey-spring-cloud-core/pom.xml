@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>grey-spring-cloud</artifactId>
-        <groupId>org.eightmonth.cloud</groupId>
+        <groupId>io.github.eightmonth.cloud</groupId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>..</relativePath>
     </parent>
