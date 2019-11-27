@@ -7,9 +7,19 @@
     <groupId>io.github.eightmonth.cloud</groupId>
     <artifactId>grey-spring-cloud-dependencies</artifactId>
     <packaging>pom</packaging>
-    <version>2.0</version>
+    <version>2.1</version>
 
     <name>grey-spring-cloud-dependencies</name>
+
+    <description>Eightmonth Cloud grey dependencies</description>
+    <url>https://github.com/EightMonth/grey-spring-cloud</url>
+
+    <developers>
+        <developer>
+            <name>eightmonth</name>
+            <email>eightmonth@qq.com</email>
+        </developer>
+    </developers>
 
     <properties>
         <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
@@ -55,6 +65,14 @@
         </developerConnection>
         <tag>HEAD</tag>
     </scm>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
 
     <distributionManagement>
         <snapshotRepository>
